@@ -1,3 +1,16 @@
-.intro{
-  color: pink 
+.intro {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 400px 400px;
+  align-items: center;
+  justify-items: center;
+  column-gap: 50px;
+}
+.athtext {
+  color: pink;
+  margin: 0px;
+}
+.athair {
+  width: 100%;
+  object-fit: contain;
 }
